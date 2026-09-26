@@ -1,0 +1,170 @@
+body {
+  font-family: "Bricolage Grotesque", sans-serif !important;
+  font-optical-sizing: auto;
+  font-variation-settings: "wdth" 100;
+
+  display : flex;
+  flex-direction: column;
+  min-height: 100vh;
+  /* background-color: !important; */
+
+}
+
+.container{
+    flex : 1;
+    border:none !important;
+}
+
+.navbar{
+    background-color : rgb(114, 145, 63);
+    height : 5rem;
+    border: none !important;
+}
+
+
+/* --------------------------- NAVBAR ----------------------- */
+.nav-link{
+    color : white !important;
+    margin-right: 1rem;
+}
+
+.fa-compass{
+    font-size :2rem;
+    color : rgb(58, 77, 27);
+}
+
+
+
+/* ----------------------------------------------------- FOOTER ------------------------------------------------- */
+.f-info{
+    text-align : center;
+    background-color : #ebebeb;
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly ;
+    height : 7rem;
+}
+
+
+
+
+/* ---------- FOOTER - Social icons ------------ */
+.f-info-socials , .f-info-links , .f-info-brand{
+    width : 100%;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-info-socials i{
+    color : rgb(79, 79, 79);
+    font-size : 1.2rem;
+    margin: 0 0.5rem;
+}
+
+.f-info-socials i:hover{
+    color : black;
+}
+
+
+
+/* ---------- FOOTER - anchor tags ------------ */
+
+.f-info-links a{
+    text-decoration : none;
+    color : grey;
+    margin: 0 0.5rem;
+}
+
+.f-info-links a:hover{
+    color : black;
+}
+
+
+
+/* ----------------------------------------------------- Card -------------------------------------------------------------- */
+.listing-card{
+    border : none !important;
+    margin-bottom: 2.2rem ;
+}
+
+.card-img-top{
+    border-radius : 1rem !important;
+    height : 20rem;
+    object-fit : cover !important; 
+}
+
+.card-body {
+    padding : 0 !important;
+}
+
+.listing-link{
+    text-decoration: none;
+}
+
+
+/* ---------------------------- Card Effect ------------------------------ */
+.card-img-overlay{
+    opacity : 0;
+}
+
+.card-img-overlay:hover{
+    opacity : 0.3;
+    background-color: white;
+}
+
+
+/* ---------------------------------------------------- New Page -------------------------------------------------------------- */
+.add-btn
+{
+    background-color: rgb(58, 77, 27) !important;
+}
+
+
+/* --------------------------------------------------- Edit Page -------------------------------------------------------------- */
+
+.edit-btn
+{
+    background-color: rgb(58, 77, 27) !important;
+}
+
+/* --------------------------------------------------- Show page -------------------------------------------------------------- */
+.show-img
+{
+    height : 30vh;
+}
+
+.btnsOnShow
+{
+    display : flex;
+}
+
+.btnsOnShow .edit-btn
+{
+    background-color : rgb(58, 77, 27) !important; 
+    color: white !important;
+}
+
+.btnsOnShow .edit-btn:hover{
+    background-color: white !important;
+    color : rgb(58, 77, 27) !important;
+}
+
+.reviewBtn{
+    background-color : rgb(58, 77, 27) !important; 
+    color: white !important;
+    
+}
+
+.reviewBtn:hover{
+    background-color: white !important;
+    color : rgb(58, 77, 27) !important;
+}
+
+#map
+{
+    height : 400px;
+    width : 80vh;
+    border-radius:1rem;
+}
