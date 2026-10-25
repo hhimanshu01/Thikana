@@ -5,12 +5,17 @@ Thikana is a full-stack vacation rental platform inspired by Airbnb, built to ma
 
 Users can explore property listings, view detailed property information and locations on an interactive map, create and manage their own listings, and share experiences through reviews and ratings.
 
+<br>
+
 > Note: Property booking functionality is planned for a future version.
 
+<br>
 
 ## 🌐 Live Demo
 
 🔗 **Explore Thikana:** https://thikana-qndb.onrender.com
+
+<br>
 
 
 ## 📸 Screenshots
@@ -39,6 +44,8 @@ Here are some screenshots showcasing the application’s interface and functiona
 ![Mapbox Integration](screenshots/InteractiveMap.png)
 
 
+<br>
+
 ## Features
 
 🏠 **Explore Properties:** Browse vacation rental listings and view their details.
@@ -55,7 +62,7 @@ Here are some screenshots showcasing the application’s interface and functiona
 
 🔒 **Authorization:** Restrict listing management and other protected actions to authorized users.
 
-
+<br>
 
 ## 🛠️ Tech Stack
 
@@ -69,6 +76,8 @@ Here are some screenshots showcasing the application’s interface and functiona
 * **Utilities:** Method-Override, Connect-Flash, Dotenv
 
 
+<br>
+
 
 ## 🏗️  Application Architecture
 
@@ -81,12 +90,15 @@ Thikana follows the MVC (Model-View-Controller) architectural pattern, separatin
 * **Middleware:** Manage authentication, authorization, input validation, session handling, and error processing to support secure and reliable request handling.
 
 
+<br>
+
 
 ## 🚀  Getting Started
 
 Follow these steps to run Thikana locally.
 
-### Prerequisites
+
+### 🔵 Prerequisites
 
 Make sure you have the following installed or configured:
 
@@ -98,12 +110,14 @@ Make sure you have the following installed or configured:
 
 🌐 [Cloudinary credentials](https://cloudinary.com/)
 
+<br>
+
 ### ⚙️ Installation
 
 **1. Clone the repository**
 
 ```bash
-git clone https://github.com/hhimanshu01/Thikana
+git clone https://github.com/hhimanshu01/Thikana.git
 cd Thikana
 ```
 
@@ -134,8 +148,13 @@ Replace the placeholder values with your actual credentials.
 node app.js
 ```
 
-Open [http://localhost:8080/listings](http://localhost:8080/listings) in your browser.
+**5. Open the application**
 
+Visit the following URL in your browser, assuming your application runs on port 8080:
+
+```text
+http://localhost:8080
+```
 
     
 ## 📂 Project structure
@@ -171,7 +190,7 @@ Thikana/
 
 ## 👨‍💻 Author
 
-#### Himanshu Sachdeva
+#### Himanshu
 
 * **Github:** [@hhimanshu01](https://github.com/hhimanshu01)
 * **LinkedIn:** [@hhimanshu01](https://www.linkedin.com/in/hhimanshu01/)
